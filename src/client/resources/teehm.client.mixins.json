@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "mikay.teehm.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ClientConnectionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [
+		"ClientConnectionInvoker",
+		"VillagerMixin"
+	]
+}
